@@ -60,7 +60,7 @@ if __name__ == "__main__":
     print("initial_weight_Wkj",Wkj)
 
     # Read the inputs
-    Ip = np.genfromtxt('Train_Assignment1.txt',delimiter = ',',dtype=np.float)
+    Ip = np.genfromtxt('TrainInput.txt',delimiter = ',',dtype=np.float)
     # Nodes of the neural network
     Xi = Ip[:,:inputLayerSize+1]
     Yj = np.ones((hiddenLayerSize+1,1))
