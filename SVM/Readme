@@ -1,0 +1,4 @@
+To run the program :
+    If necessary, change the path to the location of the libsvm python folder
+    Then execute the following command
+    python svm_hw.py
